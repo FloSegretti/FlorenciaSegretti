@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contacto</title>
+
+    <meta name="description" content="Portafolio de diseño gráfico y proyectos de Florencia Segretti. Revisa mis trabajos en Azimut, Kavod, Bioco y más.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&display=swap" as="style">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&display=swap" media="print" onload="this.media='all'">
+
+    <link rel="stylesheet" href="style.css" /> 
+</head>
+
+    <body>
+        <header class="main-nav-bar">
+            <div class="nav-left">
+                <a href="index.html" class="logo-link">
+                    <h1>Florencia Segretti</h1>
+                </a>
+            </div>
+
+            <nav class="nav-center">
+                <a href="about.html" class="nav-link">SOBRE MÍ</a>
+                <a href="trabajos.html" class="nav-link">TRABAJOS</a>
+                <a href="contacto.html" class="nav-link">CONTACTO</a>
+            </nav>
+        </header>
+        <div class="contact-container">
+            <h1 class="logo">FLORENCIA SEGRETTI</h1>
+
+            <p class="intro-text">
+                Si deseas ponerte en contacto por un proyecto o simplemente para hablar de ideas, escribeme a
+                <a href="mailto:fesegretti@uc.cl" class="email-link">fesegretti@uc.cl</a>
+            </p>
+            <p class="intro-text">
+                O si prefieres otro medio, ponte en contacto directamente utilizando el formulario a continuación.
+            </p>
+
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="firstName">Nombre </label>
+                    <input type="text" id="firstName" name="firstName" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="emailAddress">Correo</label>
+                    <input type="email" id="emailAddress" name="emailAddress" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="phoneNumber">Número de telefono</label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" />
+                </div>
+
+                <div class="form-group">
+                    <div class="message-header">
+                        <label for="message">Mensaje</label>
+                        <span class="char-count">0 / 250</span>
+                    </div>
+                    <textarea id="message" name="message" rows="5" maxlength="250"></textarea>
+                </div>
+
+                <button type="submit" class="submit-button">Mandar</button>
+            </form>
+
+            <div class="contact-footer-info">
+                <div class="info-group">
+                    <h3>Emails</h3>
+                    <p><a href="fesegretti@uc.cl" class="link-email-footer">fesegretti@uc.cl</a></p>
+                    <p>
+                        <a href="florenciasegretti3@gmail.com" class="link-email-footer"
+                            >florenciasegretti3@gmail.com</a>
+                    </p>
+                </div>
+
+                <div class="info-group">
+                    <h3>Social</h3>
+                    <p><a href="https://www.behance.net/florencsegrett/moodboards" class="link-social">Behance</a></p>
+                    <p>
+                        <a href="https://www.linkedin.com/in/florencia-segretti-riquelme-36aa7b35a/" class="link-social"
+                            >Linkedin</a
+                        >
+                    </p>
+                </div>
+
+                <p class="copyright-text">© florenciasegretti</p>
+            </div>
+        </div>
+    </body>
+</html>
