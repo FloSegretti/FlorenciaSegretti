@@ -279,11 +279,11 @@ transition: color 0.3s ease;
 
 .char-count {
     font-size: 0.9em;
-    color: #777;
+    color: #333;
 }
 
 .submit-button {
-    background-color: #d17089;
+    background-color: #E2476F;
     color: white;
     padding: 12px 25px;
     border: none;
@@ -294,10 +294,9 @@ transition: color 0.3s ease;
 }
 
 .submit-button:hover {
-    background-color: #E2476F;
+    background-color: #D17089;
 }
 
-/* Footer */
 .contact-footer-info {
     width: 100%;
     max-width: 600px;
